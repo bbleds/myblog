@@ -1,0 +1,154 @@
+html{
+  background: aqua;  
+}
+
+header{
+  background-color: rgba(10,150,160, .8);
+  padding: 10px 10%;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+}
+
+
+body{
+  background: whitesmoke;
+  background: aqua;
+  margin: 0px;
+  font-family: sans-serif;
+  font-weight: 100;
+  background-color: whitesmoke;
+}
+
+#special{
+  text-decoration: none;
+  color: white; 
+
+}
+
+body h1{
+  font-weight: 400;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#content_wrap{
+  padding: 0% 10%;
+}
+
+article{
+  margin: 50px 0px;
+  padding: 30px;
+  padding-top: 5px;
+  border-radius: 5px;
+  background-color: rgba(225,225,225, .9);
+}
+
+
+article:first-of-type{
+  margin-top: 150px;
+}
+
+img{
+  display: block;
+  margin: auto;
+}
+
+article img{
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+header> img{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  margin-top: -25px;
+  left: 5%;
+  border-radius: 50%;
+}
+
+header ul li{
+  list-style: none;
+  display: inline-block;
+  color: whitesmoke;
+  padding: 10px;
+}
+
+header ul li:hover{
+  color: aqua;
+}
+
+header nav{
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  font-size: 1.5rem;
+  height: 100%;
+  padding-right: 20px;
+}
+
+body{
+  background-image: url("https://images.unsplash.com/photo-1444212568492-d2799d30943b?q=80&fm=jpg&s=7d67062edb2369b33c554664ff56b48f");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+article header{
+
+  border-radius: 10px;
+}
+body > header{
+  visibility: hidden;
+}
+
+#main-nav{
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  position: fixed;
+  margin-top: -20px;
+  z-index: 6;
+  overflow: hidden;
+}
+
+nav ul{
+  padding: 0px;
+  margin: 0px;
+  height: 100px;
+  padding-left: 15%;
+}
+
+nav ul li{
+  list-style: none; 
+  display: inline-block;
+  height: 100%;
+  color: white;
+  font-size: 1.6rem;
+  margin: 0px 10px;
+  text-align: center;
+  padding: 30px;
+  cursor: pointer;
+}
+
+nav ul li:hover{
+  background-color: gray;
+}
+
+#logo_img{
+  height: 70px;
+  width: 70px;
+  position: absolute; 
+  left: 5%;
+  top: 5px;
+}
